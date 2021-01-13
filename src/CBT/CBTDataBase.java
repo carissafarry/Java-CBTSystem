@@ -7,12 +7,9 @@ import java.util.*;
 public class CBTDataBase {
 
     // ArrayList<UserData> userDataBase = new ArrayList<>();
-    ArrayList<QuestionsData> questionDataBase = new ArrayList<QuestionsData>();
+    ArrayList<QuestionsData> questionDataBase = new ArrayList<>();
 
-    Integer[] sortedIndex;
-    int currentIndex = 0;
-    int randomIndex = 0;
-    int totalQuestion = -1;
+    private Integer[] sortedIndex;
 
     CBTDataBase(){
         questionDatabasePush("1 + 1", "2", "1", "0", "-1", 0);
